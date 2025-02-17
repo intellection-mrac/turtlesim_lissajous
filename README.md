@@ -2,7 +2,7 @@
 
 This repository demonstrates how to generate complex motion patterns in ROS Noetic using the turtlesim simulator. The `turtlesim_lissajous` package drives a turtle to trace a Lissajous curve—a parametric path created by the superposition of two orthogonal harmonic oscillations. This guide covers the mathematical foundations, ROS node implementation with a proportional controller, and a Docker-based deployment that ensures reproducibility across environments.
 
-Author	:	**intellection**, o3-mini
+Author	:	**intellection**, o3-mini  
 email	:	santosh.shenbagamoorthy@students.iaac.net
 
 ---
