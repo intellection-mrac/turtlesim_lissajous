@@ -578,14 +578,14 @@ You can record simulation data using **rosbag** for later analysis or debugging:
 
 ```bash
 source /dev_ws/setup.bash
-rosbag record -O lissajous_turtle.bag /turtle1/cmd_vel
+rosbag record -O ~/out/lissajous_turtle.bag /turtle1/cmd_vel
 ```
 
 ### Record Multiple Topics
 
 ```bash
 source /dev_ws/setup.bash
-rosbag record -O lissajous_data.bag /turtle1/cmd_vel /turtle1/pose
+rosbag record -O ~/out/lissajous_data.bag /turtle1/cmd_vel /turtle1/pose
 ```
 
 Press **CTRL+C** to stop recording once you have captured the desired data.
