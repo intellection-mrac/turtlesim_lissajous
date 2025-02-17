@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>turtlesim_lissajous</name>
+  <version>0.0.0</version>
+  <description>
+    The turtlesim_lissajous package implements a ROS node to drive the turtle
+    through a Lissajous curve using a proportional controller.
+  </description>
+
+  <maintainer email="santosh.shenbagamoorthy@students.iaac.net">intellection</maintainer>
+
+  <license>MIT</license>
+
+  <depend>rospy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>turtlesim</depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>ros-noetic-turtlesim</exec_depend>
+
+  <export>
+    <build_type>catkin</build_type>
+  </export>
+</package>
