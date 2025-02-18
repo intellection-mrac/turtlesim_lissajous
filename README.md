@@ -592,10 +592,6 @@ Press **CTRL+C** to stop recording once you have captured the desired data.
 
 ---
 
-Here is a breakdown of the `CMakeLists.txt` and `package.xml` file, along with a detailed explanation of how each component functions within your ROS Noetic project. This ensures the project is set up and works correctly.
-
----
-
 ## 8. Project Folder Structure
 
 The repository is organized as follows:
